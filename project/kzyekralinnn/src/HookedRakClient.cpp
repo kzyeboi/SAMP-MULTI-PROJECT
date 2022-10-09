@@ -55,7 +55,7 @@ bool HookedRakClientInterface::RPC(int* uniqueID, BitStream* parameters, PacketP
 
 		if (*uniqueID == RPC_ClientJoin)
 		{
-			addMessageToChatWindow("İnjecte işlemi başarılı gözüküyor :sunglasses: ");
+			addMessageToChatWindow(":sunglasses: ");
 
 		}
 
