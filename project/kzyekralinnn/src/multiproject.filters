@@ -1,0 +1,1179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="RakNet">
+      <UniqueIdentifier>{4fca762a-c0e6-4c1a-b4e7-ea6d3aa07b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="no more wanted">
+      <UniqueIdentifier>{c3ad9043-3d3c-4241-98f1-93e2122dcdc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="no more wanted\game">
+      <UniqueIdentifier>{3acbb6a1-2dad-4652-a0f4-50998bd6bf34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="no more wanted\game\game_sa">
+      <UniqueIdentifier>{7e564f64-d0bf-4a5c-89d2-83c66e1b6aad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game_sa\game\C3DMarker.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\C3DMarkers.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAERadioTrackManager.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAnimBlendAssocGroup.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAnimBlendAssociation.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAnimBlendHierarchy.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAnimBlendSequence.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAnimBlendStaticAssociation.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAnimBlock.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAnimManager.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAudio.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CAutomobile.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CBike.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CBmx.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CBoat.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CBuilding.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCam.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCamera.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCarEnterExit.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCarGenerator.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCheckpoint.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCheckpoints.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCivilianPed.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CClock.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CColModel.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CColPoint.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CControllerConfigManager.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CCoronas.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CDamageManager.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CDoor.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CEntity.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CEvent.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CEventDamage.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CEventGroup.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CEventGunShot.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CEventList.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CExplosion.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CExplosionManager.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CFire.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CFireManager.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CFont.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CFx.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CGame.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CGarage.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CGarages.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CHandlingEntry.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CHandlingManager.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CHud.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CKeyGen.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CMarker.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CMenuManager.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CModelInfo.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CMonsterTruck.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CObject.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\Common.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPad.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CParticle.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CParticleObject.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CParticleSystemManager.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPathFind.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPed.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPedDamageResponse.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPedDamageResponseCalculator.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPedIK.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPedIntelligence.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPedModelInfo.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPedSound.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPhysical.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPickup.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPickups.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPlane.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPlayerInfo.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPlayerPed.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPools.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CPopulation.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CProjectile.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CProjectileInfo.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CQuadBike.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CRadar.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CRegisteredCorona.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CRemote.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CRenderWare.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CRestart.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CRopes.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CSettings.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CStats.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CStreaming.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CTaskManagementSystem.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CTaskManager.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CTasks.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CText.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CTheCarGenerators.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CTrailer.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CVehicle.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CVehicleScanner.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CVisibilityPlugins.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CWanted.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CWater.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CWaterManager.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CWeapon.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CWeaponInfo.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CWeather.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\CWorld.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\RenderWare.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\Task.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskAttack.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskBasic.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskCar.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskCarAccessories.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskGoTo.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskIK.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskJumpFall.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskPhysicalResponse.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskSecondary.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\game\TaskTypes.h">
+      <Filter>no more wanted\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\C3DMarkerSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\C3DMarkersSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAERadioTrackManagerSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAnimBlendAssocGroupSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAnimBlendAssociationSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAnimBlendHierarchySA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAnimBlendSequenceSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAnimBlendStaticAssociationSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAnimBlockSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAnimManagerSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAudioSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CAutomobileSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CBikeSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CBmxSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CBoatSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CBuildingSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCameraSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCamSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCarEnterExitSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCarGeneratorSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCheckpointSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCheckpointsSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCivilianPedSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CClockSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CColModelSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CColPointSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CControllerConfigManagerSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CCoronasSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CDamageManagerSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CDoorSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CEntitySA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CEventDamageSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CEventGroupSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CEventGunShotSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CEventListSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CEventSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CExplosionManagerSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CExplosionSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CFireManagerSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CFireSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CFontSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CFxSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CGameSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CGarageSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CGaragesSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CHandlingEntrySA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CHandlingManagerSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CHudSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CKeyGenSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CMarkerSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CMatrix.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CMatrix4.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CMatrix_Pad.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CMenuManagerSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CModelInfoSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CMonsterTruckSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CObjectSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\COffsets.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\Common.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPadSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CParticleObjectSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CParticleSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CParticleSystemManagerSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPathFindSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPedDamageResponseCalculatorSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPedDamageResponseSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPedIKSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPedIntelligenceSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPedModelInfoSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPedSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPedSoundSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPhysicalSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPickupSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPickupsSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPlaneSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPlayerInfoSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPlayerPedSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPoolsSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CPopulationSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CProjectileInfoSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CProjectileSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CQuadBikeSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CRadarSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CRegisteredCoronaSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CRemoteSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CRenderWareSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CRestartSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CRopesSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CSettingsSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CStatsSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CStreamingSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CTaskManagementSystemSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CTaskManagerSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CTasksSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CTextSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CTheCarGeneratorsSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CTrailerSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CVector.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CVector2D.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CVehicleSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CVehicleScannerSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CVisibilityPluginsSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CWantedSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CWaterManagerSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CWaterSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CWeaponInfoSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CWeaponSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CWeatherSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\CWorldSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\gamesa_renderware.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\HeapTrace.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\HookSystem.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\StdInc.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskAttackSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskBasicSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskCarAccessoriesSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskCarSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskGoToSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskIKSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskJumpFallSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskNamesSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskPhysicalResponseSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskSA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sa\TaskSecondarySA.h">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="HookedRakClient.h">
+      <Filter>RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="proxyIDirect3DDevice9.h">
+      <Filter>RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="ADE32.h">
+      <Filter>no more wanted</Filter>
+    </ClInclude>
+    <ClInclude Include="ccallhook.h">
+      <Filter>no more wanted</Filter>
+    </ClInclude>
+    <ClInclude Include="CDetour.h">
+      <Filter>no more wanted</Filter>
+    </ClInclude>
+    <ClInclude Include="cshortasm.h">
+      <Filter>no more wanted</Filter>
+    </ClInclude>
+    <ClInclude Include="d3drender.h">
+      <Filter>no more wanted</Filter>
+    </ClInclude>
+    <ClInclude Include="keyhook.h">
+      <Filter>no more wanted</Filter>
+    </ClInclude>
+    <ClInclude Include="mman.h">
+      <Filter>no more wanted</Filter>
+    </ClInclude>
+    <ClInclude Include="proxyIDirect3D9.h">
+      <Filter>no more wanted</Filter>
+    </ClInclude>
+    <ClInclude Include="Say so.h">
+      <Filter>no more wanted</Filter>
+    </ClInclude>
+    <ClInclude Include="funciton.h" />
+    <ClInclude Include="func.h" />
+    <ClInclude Include="ini.h" />
+    <ClInclude Include="math_stuff.h" />
+    <ClInclude Include="amo.h" />
+    <ClInclude Include="rpcs.h" />
+    <ClInclude Include="samp.h" />
+    <ClInclude Include="ininame.h" />
+    <ClInclude Include="BitStream.h">
+      <Filter>no more wanted</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game_sa\C3DMarkerSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\C3DMarkersSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAERadioTrackManagerSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAnimBlendAssocGroupSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAnimBlendAssociationSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAnimBlendHierarchySA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAnimBlendSequenceSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAnimBlendStaticAssociationSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAnimBlockSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAnimManagerSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAudioSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CAutomobileSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CBikeSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CBmxSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CBoatSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CBuildingSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCameraSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCamSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCarEnterExitSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCarGeneratorSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCheckpointSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCheckpointsSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCivilianPedSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CClockSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CColModelSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CColPointSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CControllerConfigManagerSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CCoronasSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CDamageManagerSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CDoorSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CEntitySA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CEventDamageSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CEventGroupSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CEventGunShotSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CEventListSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CEventSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CExplosionManagerSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CExplosionSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CFireManagerSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CFireSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CFontSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CFxSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CGameSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CGarageSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CGaragesSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CHandlingEntrySA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CHandlingManagerSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CKeyGenSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CMarkerSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CMenuManagerSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CModelInfoSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CMonsterTruckSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CObjectSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\COffsets.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPadSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CParticleObjectSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CParticleSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CParticleSystemManagerSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPathFindSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPedDamageResponseCalculatorSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPedDamageResponseSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPedIKSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPedIntelligenceSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPedModelInfoSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPedSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPedSoundSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPhysicalSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPickupSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPickupsSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPlaneSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPlayerInfoSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPlayerPedSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPoolsSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CPopulationSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CProjectileInfoSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CProjectileSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CQuadBikeSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CRadarSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CRegisteredCoronaSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CRemoteSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CRenderWareSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CRestartSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CRopesSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CSettingsSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CStatsSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CStreamingSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CTaskManagementSystemSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CTaskManagerSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CTasksSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CTextSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CTheCarGeneratorsSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CTrailerSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CVehicleSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CVehicleScannerSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CVisibilityPluginsSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CWantedSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CWaterManagerSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CWaterSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CWeaponInfoSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CWeaponSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CWeatherSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CWorldSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\HeapTrace.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\HookSystem.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\StdInc.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskAttackSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskBasicSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskCarAccessoriesSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskCarSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskGoToSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskIKSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskJumpFallSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskNamesSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskPhysicalResponseSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\TaskSecondarySA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="HookedRakClient.cpp">
+      <Filter>RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="game_sa\CHudSA.cpp">
+      <Filter>no more wanted\game\game_sa</Filter>
+    </ClCompile>
+    <ClCompile Include="proxyIDirect3DDevice9.cpp">
+      <Filter>RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="optimalmain.cpp" />
+    <ClCompile Include="ADE32.cpp">
+      <Filter>no more wanted</Filter>
+    </ClCompile>
+    <ClCompile Include="ccallhook.cpp">
+      <Filter>no more wanted</Filter>
+    </ClCompile>
+    <ClCompile Include="CDetour.cpp">
+      <Filter>no more wanted</Filter>
+    </ClCompile>
+    <ClCompile Include="cshortasm.cpp">
+      <Filter>no more wanted</Filter>
+    </ClCompile>
+    <ClCompile Include="d3drender.cpp">
+      <Filter>no more wanted</Filter>
+    </ClCompile>
+    <ClCompile Include="keyhook.cpp">
+      <Filter>no more wanted</Filter>
+    </ClCompile>
+    <ClCompile Include="mman.cpp">
+      <Filter>no more wanted</Filter>
+    </ClCompile>
+    <ClCompile Include="proxyIDirect3D9.cpp">
+      <Filter>no more wanted</Filter>
+    </ClCompile>
+    <ClCompile Include="Say so.cpp">
+      <Filter>no more wanted</Filter>
+    </ClCompile>
+    <ClCompile Include="funciton.cpp" />
+    <ClCompile Include="func.cpp" />
+    <ClCompile Include="ini.cpp" />
+    <ClCompile Include="math_stuff.cpp" />
+    <ClCompile Include="amo.cpp" />
+    <ClCompile Include="rpcs.cpp" />
+    <ClCompile Include="samp.cpp" />
+    <ClCompile Include="BitStream.cpp">
+      <Filter>no more wanted</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
